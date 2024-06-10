@@ -6,6 +6,10 @@ public class Swap_two_variable {
         int c=a;
         a=b;
         b=c;
-        System.out.println("After swapping a="+a+" and b="+b);
+        System.out.println("After swapping using 3rd variable, a="+a+" and b="+b);
+        a+=b;
+        b=a-b;
+        a=a-b;
+        System.out.println("After swapping without using 3rd variable, a="+a+" and b="+b);
     }
 }
